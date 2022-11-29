@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Font Awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-blur-black fixed-top navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">IDN <span class="text-info">AUTOS</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero">
+        <div class="panel-content d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="desc" data-aos="fade-right" data-aos-duration="2000">
+                            <p class="text-title mb-4 mt-4 text-uppercase text-white">
+                                IDN <span class="text-info">Automotive and Technology</span>
+                            </p>
+                            <p class="text-white">
+                                various types from all over the world
+                            </p>
+                            <p class="text-white">
+                                Trusted and guaranteed 100% original factory, can pay on the spot and test before completing payment so you don't regret it, the price is right, the quality is steady, the goods are ready, guaranteed not GHARAR
+                            </p>
+                            <a href="" class="btn btn-info rounded p-2 text-uppercase text-white">
+                                Explore Now
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 img-brand d-flex justify-content-self">
+                        <img data-aos="fade-left" data-aos-duration="2000" src="https://gmedia.playstation.com/is/image/SIEPDC/racing-wheels-fanatec-gt-dd-pro-image-block-01-en-09mar22?$native--t$" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="seccond d-flex align-items-center" id="seccond">
+        <div class="container d-flex align-items-center p-5" data-aos="fade-down" data-aos-duration="2000">
+            <div class="col-md-4">
+                <img src="./asset/img/turbo.png" class="img-fluid img-uwuh" alt="">
+            </div>
+            <div class="col-md-8">
+                <p class="text-title text-info">
+                    Did you know?
+                </p>
+                <p class="text-align-justify">
+                    A turbocharged engine is an engine that uses the turbine-driven forced induction method to power the vehicle. This method forces recycled car exhaust into the engine’s combustion chamber. A turbocharged engine can have up to 50% more air flowing through it than a traditional engine. This means that turbocharged engines can be smaller than traditional engines, but still produce the same amount of power. This is what gives turbocharged vehicles their ability to quickly and powerfully accelerate.
+                </p>
+            </div>
+        </div>
+      </section>
+
+      <section class="top-brand">
+        <div class="panel-content">
+          <div class="container p-4">
+            <p class="text-title text-center p-3 text-white mb-3">
+              What can i found in here?
+            </p>
+            <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Car</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Sparepart</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Car Simulation</button>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="card-menu">
+                  <div class="row">
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/x3ecvjjcje2f1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Mercedes-Benz S300l (2011)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          </p>
+                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 390.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/j8yslba1i03j3-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Chevrolet Captiva (2010)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          </p>
+                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 118.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4 mt-4">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://apollo-singapore.akamaized.net/v1/files/i3mpyv16u04d1-ID/image;s=780x0;q=60" style="height: 200px;" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="text-title">Bmw 330i (2018)</p>
+                          <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the card's content.                          <div class="d-flex justify-content-between">
+                            <p class="text-success">Rp 625.000.000</p>
+                            <p class="text-warning">Bekas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panorama p-4" id="panorama">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-md-8 p-4">
+              <div class="card">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="https://media.istockphoto.com/photos/generic-modern-car-rendered-as-product-shot-picture-id1388822365?k=20&m=1388822365&s=612x612&w=0&h=dXkgLDyeX_BLsEf1kQtjEz3b9jmh0_iB2Z3KEIgZ6mA=" class="d-block w-100" style="height: 400px;" alt="...">
+                      <div class="carousel-caption card d-none d-md-block text-black">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://images.unsplash.com/photo-1526684273021-d78d156488b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80" class="d-block w-100" style="height: 400px;" alt="...">
+                      <div class="carousel-caption card d-none d-md-block text-black">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="https://images.unsplash.com/photo-1641676254053-20d932aa86ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="d-block w-100" style="height: 400px;" alt="...">
+                      <div class="carousel-caption card d-none d-md-block text-black">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>              
+            </div>
+            <div class="col-md-4 p-4">
+              <p class="text-uppercase text-title">IDN <span class="text-info">Panorama</span></p>
+              <p class="ju">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, corporis! Totam error distinctio officia tempore ab quos debitis possimus minima ut nihil ipsum aspernatur vero quis suscipit recusandae sit voluptatem architecto, inventore pariatur cum sunt quibusdam laboriosam reprehenderit fuga. Repellendus eveniet ipsum odit nulla pariatur.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking p-4" id="booking">
+        <div class="container">
+          <p class="text-title text-center">Book <span class="text-info">Table</span></p>
+          <div class="card p-4">
+            <form action="">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="form-floating mb-3">
+                    <input type="date" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Booking Date</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-floating mb-3">
+                    <input type="time" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Time</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Party</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Name</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-floating mb-3">
+                    <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                    <label for="floatingInput">Phone</label>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="form-floating">
+                    <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                      <option selected>Open this select menu</option>
+                      <option value="1">Car</option>
+                      <option value="2">Accessories</option>
+                      <option value="3">More</option>
+                    </select>
+                    <label for="floatingSelect">Select Type</label>
+                  </div>
+                </div>
+                <a href="" class="btn btn-info text-white mt-2 form-control rounded">Submit</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="panel-content d-flex align-item-center">
+          <div class="container p-4">
+            <div class="row mt-2">
+              <div class="col-md-6">
+                <div class="card">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.859709097836!2d106.81764451473974!3d-6.282166695453081!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3dc3914d43f%3A0x945e0f7cee0d6d19!2sOLX%20Autos%20HQ%20-%20Ampera!5e0!3m2!1sid!2sid!4v1667531102801!5m2!1sid!2sid" width="100%" height="380" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <p class="text-title">
+                    Get in touch
+                  </p>
+                  <table class="table table-borderless">
+                    <tr>
+                      <td>Phone</td>
+                      <td>:</td>
+                      <td>0812-1952-4273</td>
+                    </tr>
+                    <tr>
+                      <td>Email</td>
+                      <td>:</td>
+                      <td>idnboardingsch@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <td>Address</td>
+                      <td>:</td>
+                      <td>jalan raya dayeuh sukanegara jonggol</td>
+                    </tr>
+                  </table>
+                  .sosmed.d-flex.
+                </div>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        AOS.init();
+      </script>
+</body>
+</html>
