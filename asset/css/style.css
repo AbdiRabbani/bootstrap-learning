@@ -36,7 +36,6 @@
 
 .top-brand {
     width: 100vw;
-    height: 100vh;
     background-image: url('https://wallpaperaccess.com/full/1125097.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,7 +43,6 @@
 
 .panorama {
     width: 100vw;
-    height: 100vh;
 }
 
 .booking {
@@ -53,7 +51,6 @@
 
 .contact {
     width: 100vw;
-    height: 60vh;
     background-image: url('https://overheaddoorjoliet.com/wp-content/uploads/2019/09/West-Bellevue-Garage.jpg');
     background-size: cover;
     background-repeat: no-repeat;
